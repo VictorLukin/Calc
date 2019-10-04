@@ -120,6 +120,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "Calc"
+    }
+  },
+  "defaultProject": "Calc",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }

@@ -1,0 +1,11 @@
+@import "src/styles.scss";
+
+.calculator {
+  width: $innerWidth+2*1rem;
+  margin: 1rem auto;
+  text-align: center;
+  border: $borderColor;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: $calcBackgroundColor;
+}

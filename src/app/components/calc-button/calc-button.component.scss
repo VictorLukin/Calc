@@ -1,0 +1,14 @@
+@import "src/styles.scss";
+
+button {
+  width: 7rem;
+  margin: 0.25rem;
+  padding: 0.5rem;
+  border-color: $borderColor;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  background-color: $textBackgroundColor;
+  &:hover {
+    background-color: $highlightColor;
+  }
+}

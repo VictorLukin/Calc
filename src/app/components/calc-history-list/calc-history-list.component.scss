@@ -1,0 +1,11 @@
+@import "src/styles.scss";
+
+#scroll-box {
+  border-color: $borderColor;
+  border-style: solid;
+  border-width: thin;
+  height: 10rem;
+  padding: 0.5rem;
+  overflow: auto;
+  background-color: $textBackgroundColor;
+}

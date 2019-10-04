@@ -1,0 +1,31 @@
+@import "src/styles.scss";
+
+label {
+  margin-left: 0.5rem;
+}
+
+input {
+  width: 80%;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border-color: $borderColor;
+  border-style: inset;
+  border-width: medium;
+  background-color: $textBackgroundColor;
+  display: inline-block;
+}
+
+button {
+  width: 10%;
+  padding: 0.1rem;
+  border-color: $borderColor;
+  border-radius: 0.25rem;
+  background-color: $textBackgroundColor;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  vertical-align: middle;
+  &:hover {
+    background-color: $highlightColor;
+  }
+}

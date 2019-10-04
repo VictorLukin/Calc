@@ -1,0 +1,18 @@
+<div class="calculator">
+  <app-calc-history-list
+    [expression]="savedExpression"
+    (sendExpression)="receiveSavedExpression($event)"
+  ></app-calc-history-list>
+  <br>
+  <app-calc-expression
+    (sendExpression)="receiveExpression($event)"
+    (saveExpression)="saveExpression($event)"
+    (clearSymbol)="clearSymbol()"
+    [symbol]="symbol"
+    [expression]="restoredExpression"
+  ></app-calc-expression>
+  <br>
+  <app-calc-result [result]="result"></app-calc-result>
+  <br>
+  <app-calc-button-unit (sendSymbol)="receiveSymbol($event)"></app-calc-button-unit>
+</div>

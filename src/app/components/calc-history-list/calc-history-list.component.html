@@ -1,0 +1,9 @@
+<label for="scroll-box">History of expressions:</label>
+<div id="scroll-box">
+  <app-calc-history-item
+    *ngFor="let e of expressions"
+    [expression]="e"
+    (itemButtonClick)="onSendExpression($event)"
+  ></app-calc-history-item>
+  <p *ngFor="let e of expressions"></p>
+</div>

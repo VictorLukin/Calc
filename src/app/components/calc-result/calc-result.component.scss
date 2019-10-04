@@ -1,0 +1,17 @@
+@import "src/styles.scss";
+
+label {
+  margin-left: 0.5rem;
+}
+
+p {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: $innerWidth;
+  border-style: solid;
+  border-width: thin;
+  border-color: $borderColor;
+  border-radius: 0.25rem;
+  text-align: right;
+  background-color: $textBackgroundColor;
+}
